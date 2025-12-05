@@ -70,5 +70,24 @@
         "label": "Phone Number",
         "placeholder": "+1 (555) 000-0000",
         "cta": "Start Free Trial"
+    },
+    "onboarding": {
+        "title": "Start using Clutter.AI",
+        "emailLabel": "Your best e-mail",
+        "emailPlaceholder": "you@example.com",
+        "phoneLabel": "WhatsApp / Mobile",
+        "phonePlaceholder": "21 99999-9999",
+        "submit": "Start Now",
+        "success": {
+            "title": "All set!",
+            "message": "Your account was created. Choose your favorite app below to activate the assistant.",
+            "whatsapp": "WhatsApp",
+            "telegram": "Telegram"
+        },
+        "errors": {
+            "emailInvalid": "Invalid e-mail address.",
+            "phoneRequired": "Phone number is required.",
+            "generic": "An error occurred while processing your request."
+        }
     }
 }

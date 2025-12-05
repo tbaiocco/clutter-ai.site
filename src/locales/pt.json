@@ -70,5 +70,24 @@
         "label": "Número do celular",
         "placeholder": "+55 (11) 99999-9999",
         "cta": "Começar Teste Grátis"
+    },
+    "onboarding": {
+        "title": "Comece a usar o Clutter.AI",
+        "emailLabel": "Seu melhor e-mail",
+        "emailPlaceholder": "voce@exemplo.com",
+        "phoneLabel": "WhatsApp / Celular",
+        "phonePlaceholder": "21 99999-9999",
+        "submit": "Começar Agora",
+        "success": {
+            "title": "Tudo pronto!",
+            "message": "Sua conta foi criada. Escolha seu app favorito abaixo para ativar o assistente.",
+            "whatsapp": "WhatsApp",
+            "telegram": "Telegram"
+        },
+        "errors": {
+            "emailInvalid": "Endereço de e-mail inválido.",
+            "phoneRequired": "O telefone é obrigatório.",
+            "generic": "Ocorreu um erro ao processar sua solicitação."
+        }
     }
 }

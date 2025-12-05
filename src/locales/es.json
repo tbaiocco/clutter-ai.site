@@ -70,5 +70,24 @@
         "label": "Número de móvil",
         "placeholder": "+34 600 000 000",
         "cta": "Comenzar Prueba Gratis"
+    },
+    "onboarding": {
+        "title": "Comienza a usar Clutter.AI",
+        "emailLabel": "Tu mejor correo",
+        "emailPlaceholder": "tu@ejemplo.com",
+        "phoneLabel": "WhatsApp / Celular",
+        "phonePlaceholder": "21 99999-9999",
+        "submit": "Comenzar Ahora",
+        "success": {
+            "title": "¡Todo listo!",
+            "message": "Tu cuenta ha sido creada. Elige tu app favorita abajo para activar el asistente.",
+            "whatsapp": "WhatsApp",
+            "telegram": "Telegram"
+        },
+        "errors": {
+            "emailInvalid": "Correo electrónico inválido.",
+            "phoneRequired": "El teléfono es obligatorio.",
+            "generic": "Ocurrió un error al procesar tu solicitud."
+        }
     }
 }
