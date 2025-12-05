@@ -43,24 +43,24 @@ const Navbar = () => {
                             <div className="relative group mr-2">
                                 <button className="flex items-center gap-1 text-brand-text hover:text-brand-primary transition-colors font-medium">
                                     <Globe size={20} />
-                                    <span>{t(`navbar.language.${i18n.language}`)}</span>
+                                    <span>{t(`navbar.language.${i18n.resolvedLanguage}`)}</span>
                                 </button>
                                 <div className="absolute right-0 mt-2 w-24 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hidden group-hover:block">
                                     <button
                                         onClick={() => handleLanguageChange('en')}
-                                        className={`w-full text-left px-4 py-2 text-sm transition-colors ${i18n.language === 'en' ? 'text-brand-primary bg-brand-primary/5 font-bold' : 'text-brand-text hover:bg-gray-50'}`}
+                                        className={`w-full text-left px-4 py-2 text-sm transition-colors ${i18n.resolvedLanguage === 'en' ? 'text-brand-primary bg-brand-primary/5 font-bold' : 'text-brand-text hover:bg-gray-50'}`}
                                     >
                                         {t('navbar.language.en')}
                                     </button>
                                     <button
                                         onClick={() => handleLanguageChange('pt')}
-                                        className={`w-full text-left px-4 py-2 text-sm transition-colors ${i18n.language === 'pt' ? 'text-brand-primary bg-brand-primary/5 font-bold' : 'text-brand-text hover:bg-gray-50'}`}
+                                        className={`w-full text-left px-4 py-2 text-sm transition-colors ${i18n.resolvedLanguage === 'pt' ? 'text-brand-primary bg-brand-primary/5 font-bold' : 'text-brand-text hover:bg-gray-50'}`}
                                     >
                                         {t('navbar.language.pt')}
                                     </button>
                                     <button
                                         onClick={() => handleLanguageChange('es')}
-                                        className={`w-full text-left px-4 py-2 text-sm transition-colors ${i18n.language === 'es' ? 'text-brand-primary bg-brand-primary/5 font-bold' : 'text-brand-text hover:bg-gray-50'}`}
+                                        className={`w-full text-left px-4 py-2 text-sm transition-colors ${i18n.resolvedLanguage === 'es' ? 'text-brand-primary bg-brand-primary/5 font-bold' : 'text-brand-text hover:bg-gray-50'}`}
                                     >
                                         {t('navbar.language.es')}
                                     </button>
@@ -84,10 +84,10 @@ const Navbar = () => {
                         {/* Mobile menu button */}
                         <div className="md:hidden flex items-center gap-4">
                             <button
-                                onClick={() => handleLanguageChange(i18n.language === 'en' ? 'pt' : i18n.language === 'pt' ? 'es' : 'en')} // Cycle languages on mobile
+                                onClick={() => handleLanguageChange(i18n.resolvedLanguage === 'en' ? 'pt' : i18n.resolvedLanguage === 'pt' ? 'es' : 'en')} // Cycle languages on mobile
                                 className="text-brand-text hover:text-brand-primary transition-colors"
                             >
-                                <span className="font-bold text-sm">{t(`navbar.language.${i18n.language}`)}</span>
+                                <span className="font-bold text-sm">{t(`navbar.language.${i18n.resolvedLanguage}`)}</span>
                             </button>
 
                             <button
