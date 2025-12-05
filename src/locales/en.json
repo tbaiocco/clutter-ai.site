@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "features": "Features",
+        "howItWorks": "How it Works",
+        "pricing": "Pricing",
+        "signIn": "Sign In",
+        "getStarted": "Get Started",
+        "language": {
+            "en": "EN",
+            "pt": "PT",
+            "es": "ES"
+        },
+        "toast": "English selected"
+    },
+    "hero": {
+        "headline": {
+            "prefix": "Eliminate the",
+            "highlight": "Chaos",
+            "suffix": "of Modern Life."
+        },
+        "subheadline": "The universal inbox for your chaotic mind. Just dump anything via WhatsApp/Telegram/E-mail-audio, text, or photos—and let AI handle the rest.",
+        "cta": "Start Free Trial",
+        "disclaimer": "No credit card required. Cancel anytime.",
+        "chat": {
+            "aiName": "Clutter.AI Assistant",
+            "status": "Online",
+            "userMessage": "Remind me to pay car insurance on the 5th",
+            "aiResponse": {
+                "status": "Scheduled.",
+                "detail": "Reminder set for Dec 5th at 9:00 AM"
+            }
+        }
+    },
+    "features": {
+        "headline": {
+            "prefix": "Chaos, meet",
+            "highlight": "Order",
+            "suffix": "."
+        },
+        "subheadline": "Powerful features designed to declutter your mind without adding more apps to your phone.",
+        "items": [
+            {
+                "title": "WhatsApp | Telegram | E-mail Integration",
+                "description": "No new apps. Use what you already love. Just forward messages to Clutter.AI."
+            },
+            {
+                "title": "Multi-modal",
+                "description": "Speak, type, or snap a photo. We understand it all."
+            },
+            {
+                "title": "Smart Reminders",
+                "description": "We remind you at the right time, not before, not after. Context-aware notifications."
+            },
+            {
+                "title": "Auto-Categorization",
+                "description": "Bills, Tasks, Ideas – everything organized automatically in seconds."
+            }
+        ],
+        "socialProof": "Trusted by <1>chaotic minds</1> everywhere"
+    },
+    "footer": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact",
+        "rights": "All rights reserved."
+    },
+    "login": {
+        "title": "Welcome to Clutter.AI",
+        "subtitle": "Enter your Phone number to start your free trial.",
+        "label": "Phone Number",
+        "placeholder": "+1 (555) 000-0000",
+        "cta": "Start Free Trial"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "features": "Características",
+        "howItWorks": "Cómo Funciona",
+        "pricing": "Precios",
+        "signIn": "Iniciar Sesión",
+        "getStarted": "Empezar",
+        "language": {
+            "en": "EN",
+            "pt": "PT",
+            "es": "ES"
+        },
+        "toast": "Español seleccionado"
+    },
+    "hero": {
+        "headline": {
+            "prefix": "Elimina el",
+            "highlight": "Caos",
+            "suffix": "de la Vida Moderna."
+        },
+        "subheadline": "La bandeja de entrada universal para tu mente caótica. Simplemente envía cualquier cosa por WhatsApp/Telegram/E-mail—audio, texto o fotos—y deja que la IA se encargue del resto.",
+        "cta": "Prueba Gratis",
+        "disclaimer": "No se requiere tarjeta. Cancela cuando quieras.",
+        "chat": {
+            "aiName": "Asistente Clutter.AI",
+            "status": "En línea",
+            "userMessage": "Recordar pagar el seguro del coche el día 5",
+            "aiResponse": {
+                "status": "Programado.",
+                "detail": "Recordatorio establecido para el 5 de Dic a las 9:00 AM"
+            }
+        }
+    },
+    "features": {
+        "headline": {
+            "prefix": "Caos, conoce al",
+            "highlight": "Orden",
+            "suffix": "."
+        },
+        "subheadline": "Funciones potentes diseñadas para ordenar tu mente sin añadir más aplicaciones a tu teléfono.",
+        "items": [
+            {
+                "title": "Integración con WhatsApp | Telegram | E-mail",
+                "description": "Sin nuevas apps. Usa lo que ya amas. Solo reenvía mensajes a Clutter.AI."
+            },
+            {
+                "title": "Multimodal",
+                "description": "Habla, escribe o toma una foto. Lo entendemos todo."
+            },
+            {
+                "title": "Recordatorios Inteligentes",
+                "description": "Te recordamos en el momento justo, ni antes ni después. Notificaciones conscientes del contexto."
+            },
+            {
+                "title": "Auto-Categorización",
+                "description": "Facturas, Tareas, Ideas – todo organizado automáticamente en segundos."
+            }
+        ],
+        "socialProof": "Confiado por <1>mentes caóticas</1> en todas partes"
+    },
+    "footer": {
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio",
+        "contact": "Contacto",
+        "rights": "Todos los derechos reservados."
+    },
+    "login": {
+        "title": "Bienvenido a Clutter.AI",
+        "subtitle": "Ingresa tu número móvil para comenzar tu prueba gratuita.",
+        "label": "Número de móvil",
+        "placeholder": "+34 600 000 000",
+        "cta": "Comenzar Prueba Gratis"
+    }
+}

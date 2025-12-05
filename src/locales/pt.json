@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "features": "Recursos",
+        "howItWorks": "Como Funciona",
+        "pricing": "Preços",
+        "signIn": "Entrar",
+        "getStarted": "Começar",
+        "language": {
+            "en": "EN",
+            "pt": "PT",
+            "es": "ES"
+        },
+        "toast": "Português selecionado"
+    },
+    "hero": {
+        "headline": {
+            "prefix": "Elimine o",
+            "highlight": "Caos",
+            "suffix": "da Vida Moderna."
+        },
+        "subheadline": "A caixa de entrada universal para sua mente caótica. Simplesmente jogue qualquer coisa no WhatsApp/Telegram/E-mail—áudio, texto ou fotos—e deixe a IA cuidar do resto.",
+        "cta": "Comece Grátis",
+        "disclaimer": "Sem cartão de crédito. Cancele quando quiser.",
+        "chat": {
+            "aiName": "Assistente Clutter.AI",
+            "status": "Online",
+            "userMessage": "Lembrar de pagar o seguro do carro dia 5",
+            "aiResponse": {
+                "status": "Agendado.",
+                "detail": "Lembrete definido para 5 de Dez às 09:00"
+            }
+        }
+    },
+    "features": {
+        "headline": {
+            "prefix": "Caos, conheça a",
+            "highlight": "Ordem",
+            "suffix": "."
+        },
+        "subheadline": "Recursos poderosos projetados para organizar sua mente sem adicionar mais apps ao seu telefone.",
+        "items": [
+            {
+                "title": "Integração com WhatsApp | Telegram | E-mail",
+                "description": "Sem apps novos. Use o que você já ama. Apenas encaminhe mensagens para o Clutter.AI."
+            },
+            {
+                "title": "Multi-modal",
+                "description": "Fale, digite ou tire uma foto. Nós entendemos tudo."
+            },
+            {
+                "title": "Lembretes Inteligentes",
+                "description": "Lembramos você na hora certa, nem antes, nem depois. Notificações conscientes do contexto."
+            },
+            {
+                "title": "Auto-Categorização",
+                "description": "Contas, Tarefas, Ideias – tudo organizado automaticamente em segundos."
+            }
+        ],
+        "socialProof": "Confiado por <1>mentes caóticas</1> em todo lugar"
+    },
+    "footer": {
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Uso",
+        "contact": "Contato",
+        "rights": "Todos os direitos reservados."
+    },
+    "login": {
+        "title": "Bem-vindo ao Clutter.AI",
+        "subtitle": "Digite seu número de celular para iniciar seu teste grátis.",
+        "label": "Número do celular",
+        "placeholder": "+55 (11) 99999-9999",
+        "cta": "Começar Teste Grátis"
+    }
+}
