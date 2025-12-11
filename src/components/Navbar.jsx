@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import LoginModal from './LoginModal';
 import { useTranslation } from 'react-i18next';
 
-const Navbar = () => {
+const Navbar = ({ onOpenLogin }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isLoginOpen, setIsLoginOpen] = useState(false);
     const [showToast, setShowToast] = useState(false);
 
     const { t, i18n } = useTranslation();
@@ -68,13 +66,13 @@ const Navbar = () => {
                             </div>
 
                             <button
-                                onClick={() => setIsLoginOpen(true)}
+                                onClick={onOpenLogin}
                                 className="btn-outline py-2.5 px-5 text-sm"
                             >
                                 {t('navbar.signIn')}
                             </button>
                             <button
-                                onClick={() => setIsLoginOpen(true)}
+                                onClick={onOpenLogin}
                                 className="btn-primary py-2.5 px-5 text-sm shadow-purple-500/20"
                             >
                                 {t('navbar.getStarted')}
@@ -115,13 +113,13 @@ const Navbar = () => {
                                 <a href="#pricing" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.pricing')}</a>
                                 <div className="pt-4 space-y-3">
                                     <button
-                                        onClick={() => { setIsLoginOpen(true); setIsMenuOpen(false); }}
+                                        onClick={() => { onOpenLogin(); setIsMenuOpen(false); }}
                                         className="w-full btn-outline text-center justify-center"
                                     >
                                         {t('navbar.signIn')}
                                     </button>
                                     <button
-                                        onClick={() => { setIsLoginOpen(true); setIsMenuOpen(false); }}
+                                        onClick={() => { onOpenLogin(); setIsMenuOpen(false); }}
                                         className="w-full btn-primary text-center justify-center shadow-none"
                                     >
                                         {t('navbar.getStarted')}
@@ -146,8 +144,6 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </AnimatePresence>
-
-            <LoginModal isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />
         </>
     );
 };

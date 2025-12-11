@@ -62,6 +62,7 @@
         "privacy": "Política de Privacidade",
         "terms": "Termos de Uso",
         "contact": "Contato",
+        "cookies": "Preferências de Cookies",
         "rights": "Todos os direitos reservados."
     },
     "login": {
@@ -89,5 +90,76 @@
             "phoneRequired": "O telefone é obrigatório.",
             "generic": "Ocorreu um erro ao processar sua solicitação."
         }
+    },
+    "howItWorks": {
+        "headline": {
+            "prefix": "Como",
+            "highlight": "Funciona",
+            "suffix": ""
+        },
+        "subheadline": "Comece em segundos. É mágica.",
+        "step1": {
+            "title": "Começar",
+            "body": "Primeiro, cadastre-se aqui no site. Depois, conecte seu app de mensagens:",
+            "detailA": "Encontre o bot <1>@Dumpsterhook_bot</1>. Envie seu número de telefone registrado como a primeira mensagem. Aguarde por: '✅ Bem-vindo! Sua conta foi vinculada'.",
+            "detailB": "Simplesmente comece a enviar mensagens para <1>+1 555 444 333</1>."
+        },
+        "step2": {
+            "title": "Apenas Envie",
+            "body": "Envie texto, notas de voz, fotos ou documentos. Nós capturamos tudo.",
+            "commands": {
+                "start": "/start - Boas-vindas & Intro",
+                "help": "/help - Mostrar lista de comandos e ajuda",
+                "recent": "/recent - Mostrar 5 itens recentes",
+                "upcoming": "/upcoming - Lembretes próx 24h",
+                "track": "/track [número] - Rastrear pacotes",
+                "search": "/search [busca] - Buscar conteúdo",
+                "report": "/report [problema] - Feedback"
+            },
+            "note": "Você também pode simplesmente digitar notas, enviar mensagens de voz (nós transcrevemos) ou fotos (nós extraímos o texto)."
+        },
+        "step3": {
+            "title": "Encaminhe E-mails",
+            "body": "Encaminhe e-mails do seu endereço cadastrado diretamente para <1>capture@inbox.theclutter.app</1>.",
+            "warning": "Dica: Mantenha apenas anexos importantes para garantir o processamento preciso."
+        },
+        "step4": {
+            "title": "Pergunte ao seu Cérebro",
+            "body": "Recupere qualquer coisa usando linguagem natural. Não se preocupe com erros de digitação, nós te entendemos.",
+            "examples": {
+                "1": "A conta de luz de novembro",
+                "2": "Aquela reunião com o João",
+                "3": "O que tem na lista de compras"
+            },
+            "typos": "conta de luss"
+        }
+    },
+    "pricing": {
+        "headline": "Especial de Acesso Antecipado: Aproveite o Clutter.AI Totalmente Grátis.",
+        "subheadline": "Estamos em beta público. Como agradecimento aos primeiros usuários, todos os recursos premium custam 0€ até <1>28 de Fevereiro de 2026</1>.",
+        "badge": "Vantagem Beta: 100% Off",
+        "included": "Comece agora e tenha acesso ilimitado a:",
+        "features": [
+            "Capturas Ilimitadas (Texto, Voz, Foto, Docs)",
+            "Processamento IA Completo e Auto-Categorização",
+            "Integração com Bots de WhatsApp e Telegram",
+            "Busca em Linguagem Natural"
+        ],
+        "cta": "Obter Meu Acesso Beta Grátis"
+    },
+    "contact": {
+        "title": "Entre em Contato",
+        "subtitle": "Tem dúvidas ou feedback? Estamos aqui para ajudar.",
+        "emailLabel": "Envie-nos um e-mail",
+        "whatsappLabel": "Converse no WhatsApp"
+    },
+    "legal": {
+        "tabs": {
+            "privacy": "Política de Privacidade",
+            "terms": "Termos de Uso"
+        },
+        "lastUpdated": "Última Atualização: 11 de Dezembro, 2025",
+        "privacyContent": "<h3>1. Coleta de Dados</h3><p>Coletamos seu número de telefone, e-mail e o conteúdo enviado via WhatsApp, Telegram ou E-mail (texto, áudio, imagens). Isso é estritamente para fornecer o serviço de Assistente Pessoal.</p><h3>2. Processamento de IA</h3><p>Você reconhece que seus dados são processados por modelos de Inteligência Artificial de terceiros para gerar resumos e categorizações. <strong>Seus dados NÃO são usados para treinar modelos públicos.</strong></p><h3>3. Retenção de Dados</h3><p>Mantemos seus dados para fornecer histórico e busca. Você pode solicitar a exclusão completa da sua conta a qualquer momento contatando <a href='mailto:ask@theclutter.app'>ask@theclutter.app</a>.</p><h3>4. Segurança</h3><p>Utilizamos criptografia e medidas de segurança padrão da indústria para proteger suas informações.</p>",
+        "termsContent": "<h3>1. Status Beta</h3><p>O Clutter.AI está em <strong>Beta Público</strong>. O serviço é fornecido \"como está\" para testes. Podem ocorrer erros ou instabilidade.</p><h3>2. Período Gratuito</h3><p>Você tem acesso gratuito a todos os recursos premium até <strong>28 de Fevereiro de 2026</strong>.</p><h3>3. Uso Justo</h3><p>Você concorda em não enviar conteúdo ilegal ou abusivo. Reservamo-nos o direito de banir usuários que abusem do serviço.</p><h3>4. Limitação de Responsabilidade</h3><p>Clutter.AI é um assistente de IA. Não nos responsabilizamos por lembretes perdidos ou erros de transcrição. Verifique sempre informações críticas.</p>"
     }
 }

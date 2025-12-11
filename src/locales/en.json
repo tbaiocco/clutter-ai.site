@@ -62,6 +62,7 @@
         "privacy": "Privacy Policy",
         "terms": "Terms of Service",
         "contact": "Contact",
+        "cookies": "Consent Preferences",
         "rights": "All rights reserved."
     },
     "login": {
@@ -89,5 +90,76 @@
             "phoneRequired": "Phone number is required.",
             "generic": "An error occurred while processing your request."
         }
+    },
+    "howItWorks": {
+        "headline": {
+            "prefix": "How it",
+            "highlight": "Works",
+            "suffix": ""
+        },
+        "subheadline": "Get up and running in seconds. It's magic.",
+        "step1": {
+            "title": "Get Started",
+            "body": "First, register here on the site. Then, connect your messaging app:",
+            "detailA": "Find bot <1>@Dumpsterhook_bot</1>. Send your registered phone number as the first message. Wait for: '✅ Welcome! Your account has been linked'.",
+            "detailB": "Simply start sending messages to <1>+1 555 444 333</1>."
+        },
+        "step2": {
+            "title": "Just Dump It",
+            "body": "Send text, voice notes, photos, or documents. We capture it all.",
+            "commands": {
+                "start": "/start - Welcome & Intro",
+                "help": "/help - Show commands list and usage",
+                "recent": "/recent - Show 5 recent items",
+                "upcoming": "/upcoming - Reminders next 24h",
+                "track": "/track [number] - Track packages",
+                "search": "/search [query] - Search content",
+                "report": "/report [issue] - Feedback"
+            },
+            "note": "You can also simply type notes, send voice messages (we transcribe them), or photos (we extract text)."
+        },
+        "step3": {
+            "title": "Forward Emails",
+            "body": "Forward emails from your registered address directly to <1>capture@inbox.theclutter.app</1>.",
+            "warning": "Tip: Keep only meaningful attachments to ensure accurate processing."
+        },
+        "step4": {
+            "title": "Ask Your Brain",
+            "body": "Retrieve anything using natural language. Don't worry about typos, we understand you.",
+            "examples": {
+                "1": "The electric bill of November",
+                "2": "That meeting with John",
+                "3": "What's in the shopping list"
+            },
+            "typos": "eletryziti bil"
+        }
+    },
+    "pricing": {
+        "headline": "Early Access Special: Enjoy Clutter.AI Completely Free.",
+        "subheadline": "We are currently in public beta. To thank our early adopters, all premium features are 0€ until <1>February 28, 2026</1>.",
+        "badge": "Beta Tester Perk: 100% Off",
+        "included": "Dive in now and get unlimited access to:",
+        "features": [
+            "Unlimited Captures (Text, Voice, Photo, Docs)",
+            "Full AI Processing & Auto-Categorization",
+            "WhatsApp & Telegram Bot Integration",
+            "Natural Language Search"
+        ],
+        "cta": "Claim My Free Beta Access Now"
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have questions or feedback? We're here to help.",
+        "emailLabel": "Send us an email",
+        "whatsappLabel": "Chat on WhatsApp"
+    },
+    "legal": {
+        "tabs": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service"
+        },
+        "lastUpdated": "Last Updated: December 11, 2025",
+        "privacyContent": "<h3>1. Data Collection</h3><p>We collect your phone number, email address, and the content you voluntarily submit via WhatsApp, Telegram, or Email. This includes text messages, voice notes, images, and documents. We collect this data solely for the purpose of providing the Personal Assistant service, including transcription, summarization, and categorization.</p><h3>2. AI Processing</h3><p>You acknowledge and agree that your data is processed by third-party Artificial Intelligence models (Large Language Models) to generate summaries, extract action items, and categorize your content. <strong>Your specific personal data is NOT used to train public models.</strong></p><h3>3. Data Retention</h3><p>We retain your data to provide the history and retrieval features of the service. You retain full ownership of your data. You can request the full deletion of your account and all associated data at any time by contacting us at <a href='mailto:ask@theclutter.app'>ask@theclutter.app</a>.</p><h3>4. Security</h3><p>We allow access to your data only to legitimate service processes. We employ encryption and industry-standard security measures to protect your information from unauthorized access.</p>",
+        "termsContent": "<h3>1. Beta Status</h3><p>The Clutter.AI service is currently in a <strong>Public Beta</strong> phase. The service is provided \"as is\" and \"as available\" for testing purposes. You understand that there may be bugs, errors, or periods of downtime.</p><h3>2. Free Period</h3><p>As an early adopter, you are granted free access to all premium features of the service until <strong>February 28, 2026</strong>. After this date, paid plans may apply, but you will be notified in advance.</p><h3>3. Fair Use</h3><p>You agree not to use the service to upload illegal, harmful, threatening, or abusive content. You agree not to abuse the API or use automated bots that disrupt the service for others. We reserve the right to ban users who violate these terms.</p><h3>4. Limitation of Liability</h3><p>Clutter.AI is an AI-powered assistant. We are not responsible for missed deadlines, incorrect reminders, or errors in transcription generated by the AI. You should always verify critical information. We are not liable for any direct or indirect damages arising from the use of this beta service.</p>"
     }
 }

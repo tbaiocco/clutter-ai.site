@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageSquare, Mic, Camera, Bell, Layers, Check } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
-import SocialProof from './SocialProof';
 
 const icons = [
     <MessageSquare className="w-8 h-8 text-brand-primary" />,
@@ -62,8 +61,6 @@ const Features = () => {
                     ))}
                 </div>
 
-                {/* Social Proof */}
-                <SocialProof />
             </div>
         </section>
     );
