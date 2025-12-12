@@ -21,15 +21,23 @@
         "subheadline": "La bandeja de entrada universal para tu mente caótica. Simplemente envía cualquier cosa por WhatsApp/Telegram/E-mail—audio, texto o fotos—y deja que la IA se encargue del resto.",
         "cta": "Prueba Gratis",
         "disclaimer": "No se requiere tarjeta. Cancela cuando quieras.",
-        "chat": {
-            "aiName": "Asistente Clutter.AI",
-            "status": "En línea",
-            "userMessage": "Recordar pagar el seguro del coche el día 5",
-            "aiResponse": {
-                "status": "Programado.",
-                "detail": "Recordatorio establecido para el 5 de Dic a las 9:00 AM"
+        "chatCarousel": [
+            {
+                "user": "Recuérdame pagar el seguro del coche el 5 de Diciembre",
+                "aiTitle": "Recordatorio Definido",
+                "aiDetail": "Programado para el 5 de Dic. a las 09:00"
+            },
+            {
+                "user": "Subiendo factura...",
+                "aiTitle": "Factura Detectada",
+                "aiDetail": "Factura de Luz • Vence 31 de Dic • Añadido al Resumen"
+            },
+            {
+                "user": "Mensaje de voz (0:12)",
+                "aiTitle": "Almuerzo con Maria",
+                "aiDetail": "Próximo Sábado 12h • Recordatorio 10m antes"
             }
-        }
+        ]
     },
     "features": {
         "headline": {
@@ -161,5 +169,23 @@
         "lastUpdated": "Última Actualización: 11 de Diciembre, 2025",
         "privacyContent": "<h3>1. Recopilación de Datos</h3><p>Recopilamos tu número de teléfono, correo electrónico y el contenido que envías voluntariamente por WhatsApp, Telegram o Email (texto, audio, imágenes). Esto es únicamente para proporcionar el servicio de Asistente Personal.</p><h3>2. Procesamiento de IA</h3><p>Reconoces que tus datos son procesados por modelos de Inteligencia Artificial de terceros para generar resúmenes y categorizaciones. <strong>Tus datos NO se usan para entrenar modelos públicos.</strong></p><h3>3. Retención de Datos</h3><p>Conservamos tus datos para ofrecer historial y búsqueda. Puedes solicitar la eliminación completa de tu cuenta en cualquier momento contactando a <a href='mailto:ask@theclutter.app'>ask@theclutter.app</a>.</p><h3>4. Seguridad</h3><p>Usamos encriptación y medidas de seguridad estándar de la industria para proteger tu información.</p>",
         "termsContent": "<h3>1. Estado Beta</h3><p>Clutter.AI está en <strong>Beta Pública</strong>. El servicio se ofrece \"tal cual\" para pruebas. Puede haber errores o interrupciones.</p><h3>2. Periodo Gratuito</h3><p>Tienes acceso gratuito a todas las funciones premium hasta el <strong>28 de Febrero de 2026</strong>.</p><h3>3. Uso Justo</h3><p>Aceptas no subir contenido ilegal o abusivo. Nos reservamos el derecho de banear usuarios que abusen del servicio.</p><h3>4. Limitación de Responsabilidad</h3><p>Clutter.AI es un asistente IA. No somos responsables por recordatorios fallidos o errores de transcripción. Verifica siempre la información crítica.</p>"
+    },
+    "privacySection": {
+        "title": "Tu Mente es Privada. Clutter.AI También.",
+        "subtitle": "Construimos un segundo cerebro para organizar tu vida, no para espiarla. Esta es nuestra promesa de privacidad:",
+        "cards": {
+            "training": {
+                "title": "Cero Entrenamiento de IA",
+                "description": "Tus datos NUNCA se utilizan para entrenar modelos públicos de IA. Tus recuerdos permanecen estrictamente tuyos."
+            },
+            "security": {
+                "title": "Seguro por Diseño",
+                "description": "Tus datos están encriptados en reposo. Priorizamos la seguridad de nivel bancario para tus archivos personales."
+            },
+            "ownership": {
+                "title": "100% Tuyo",
+                "description": "Tú tienes el control. Exporta o elimina todo tu historial en cualquier momento. La eliminación es permanente."
+            }
+        }
     }
 }

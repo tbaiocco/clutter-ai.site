@@ -23,13 +23,25 @@
         "disclaimer": "Sem cartão de crédito. Cancele quando quiser.",
         "chat": {
             "aiName": "Assistente Clutter.AI",
-            "status": "Online",
-            "userMessage": "Lembrar de pagar o seguro do carro dia 5",
-            "aiResponse": {
-                "status": "Agendado.",
-                "detail": "Lembrete definido para 5 de Dez às 09:00"
+            "status": "Online"
+        },
+        "chatCarousel": [
+            {
+                "user": "Me lembre de pagar o seguro do carro dia 5 de Dezembro",
+                "aiTitle": "Lembrete Definido",
+                "aiDetail": "Agendado para 5 de Dez. às 09:00"
+            },
+            {
+                "user": "Enviando conta...",
+                "aiTitle": "Conta Detectada",
+                "aiDetail": "Conta de Luz • Vence 31 de Dez • Adicionado ao Resumo"
+            },
+            {
+                "user": "Mensagem de voz (0:12)",
+                "aiTitle": "Almoço com Maria",
+                "aiDetail": "Próximo Sábado 12h • Lembrete 10m antes"
             }
-        }
+        ]
     },
     "features": {
         "headline": {
@@ -161,5 +173,23 @@
         "lastUpdated": "Última Atualização: 11 de Dezembro, 2025",
         "privacyContent": "<h3>1. Coleta de Dados</h3><p>Coletamos seu número de telefone, e-mail e o conteúdo enviado via WhatsApp, Telegram ou E-mail (texto, áudio, imagens). Isso é estritamente para fornecer o serviço de Assistente Pessoal.</p><h3>2. Processamento de IA</h3><p>Você reconhece que seus dados são processados por modelos de Inteligência Artificial de terceiros para gerar resumos e categorizações. <strong>Seus dados NÃO são usados para treinar modelos públicos.</strong></p><h3>3. Retenção de Dados</h3><p>Mantemos seus dados para fornecer histórico e busca. Você pode solicitar a exclusão completa da sua conta a qualquer momento contatando <a href='mailto:ask@theclutter.app'>ask@theclutter.app</a>.</p><h3>4. Segurança</h3><p>Utilizamos criptografia e medidas de segurança padrão da indústria para proteger suas informações.</p>",
         "termsContent": "<h3>1. Status Beta</h3><p>O Clutter.AI está em <strong>Beta Público</strong>. O serviço é fornecido \"como está\" para testes. Podem ocorrer erros ou instabilidade.</p><h3>2. Período Gratuito</h3><p>Você tem acesso gratuito a todos os recursos premium até <strong>28 de Fevereiro de 2026</strong>.</p><h3>3. Uso Justo</h3><p>Você concorda em não enviar conteúdo ilegal ou abusivo. Reservamo-nos o direito de banir usuários que abusem do serviço.</p><h3>4. Limitação de Responsabilidade</h3><p>Clutter.AI é um assistente de IA. Não nos responsabilizamos por lembretes perdidos ou erros de transcrição. Verifique sempre informações críticas.</p>"
+    },
+    "privacySection": {
+        "title": "Sua Mente é Privada. O Clutter.AI Também.",
+        "subtitle": "Construímos um segundo cérebro para organizar sua vida, não para espioná-la. Esta é nossa promessa de privacidade:",
+        "cards": {
+            "training": {
+                "title": "Zero Treinamento de IA",
+                "description": "Seus dados NUNCA são usados para treinar modelos públicos de IA. Suas memórias permanecem estritamente suas."
+            },
+            "security": {
+                "title": "Seguro por Design",
+                "description": "Seus dados são criptografados em repouso. Priorizamos segurança de nível bancário para seus arquivos pessoais."
+            },
+            "ownership": {
+                "title": "100% Seu",
+                "description": "Você tem o controle. Exporte ou apague todo o seu histórico a qualquer momento. A exclusão é permanente."
+            }
+        }
     }
 }
