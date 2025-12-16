@@ -55,7 +55,7 @@ export default function OnboardingForm() {
                 language: navigator.language || 'en-US'
             };
 
-            await axios.post('/users', payload);
+            await axios.post('https://api.theclutter.app/users', payload);
             setStatus('success');
         } catch (error) {
             console.error(error);
