@@ -50,7 +50,7 @@ export default function OnboardingForm() {
         try {
             const payload = {
                 email: data.email,
-                phoneNumber: data.phoneNumber,
+                phone_number: data.phoneNumber,
                 timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
                 language: navigator.language || 'en-US'
             };
