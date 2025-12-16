@@ -8,8 +8,8 @@ import 'react-phone-number-input/style.css';
 import { Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-const BOT_WHATSAPP_NUMBER = "YOUR_BOT_NUMBER";
-const BOT_TELEGRAM_USER = "YOUR_BOT_USER";
+const BOT_WHATSAPP_NUMBER = "17756444459";
+const BOT_TELEGRAM_USER = "Dumpsterhook_bot";
 
 export default function OnboardingForm() {
     const { t } = useTranslation();
