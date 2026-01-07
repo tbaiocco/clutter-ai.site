@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation, Trans } from 'react-i18next';
-import { UserPlus, Inbox, Mail, Brain, Check, Bot } from 'lucide-react';
+import { UserPlus, Inbox, Mail, Brain, Check, Send, MessageCircle } from 'lucide-react';
 
 const HowItWorks = () => {
     const { t } = useTranslation();
@@ -61,7 +61,7 @@ const HowItWorks = () => {
 
                         <div className="space-y-4 bg-gray-50 p-4 rounded-xl">
                             <div className="flex items-start gap-3">
-                                <div className="mt-1 min-w-[20px]"><Bot size={18} className="text-cyan-500" /></div>
+                                <div className="mt-1 min-w-[20px]"><Send size={18} className="text-[#0088cc]" /></div>
                                 <p className="text-sm text-gray-700">
                                     <Trans i18nKey="howItWorks.step1.detailA">
                                         Find bot <span className="font-semibold">@Dumpsterhook_bot</span>. Send your registered phone number as the first message. Wait for: '✅ Welcome! Your account has been linked'.
@@ -69,10 +69,10 @@ const HowItWorks = () => {
                                 </p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="mt-1 min-w-[20px]"><span className="flex items-center justify-center w-4 h-4 rounded-full bg-green-500 text-white text-xs font-bold">W</span></div>
+                                <div className="mt-1 min-w-[20px]"><MessageCircle size={18} className="text-[#25D366]" /></div>
                                 <p className="text-sm text-gray-700">
                                     <Trans i18nKey="howItWorks.step1.detailB">
-                                        Simply start sending messages to <span className="font-semibold">+1 555 444 333</span>.
+                                        Simply start sending messages to <span className="font-semibold">+1 775 644 4459</span>.
                                     </Trans>
                                 </p>
                             </div>

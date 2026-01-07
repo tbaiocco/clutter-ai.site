@@ -30,8 +30,8 @@ const Navbar = ({ onOpenLogin }) => {
 
                         {/* Desktop Menu */}
                         <div className="hidden md:flex items-center space-x-8">
-                            <a href="#features" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.features')}</a>
                             <a href="#how-it-works" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.howItWorks')}</a>
+                            <a href="#features" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.features')}</a>
                             <a href="#pricing" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.pricing')}</a>
                         </div>
 
@@ -108,8 +108,8 @@ const Navbar = ({ onOpenLogin }) => {
                             className="md:hidden bg-brand-bg border-b border-gray-100 overflow-hidden"
                         >
                             <div className="px-4 pt-2 pb-6 space-y-2">
-                                <a href="#features" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.features')}</a>
                                 <a href="#how-it-works" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.howItWorks')}</a>
+                                <a href="#features" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.features')}</a>
                                 <a href="#pricing" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.pricing')}</a>
                                 <div className="pt-4 space-y-3">
                                     <button

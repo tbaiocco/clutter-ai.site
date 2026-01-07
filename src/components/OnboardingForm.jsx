@@ -76,23 +76,36 @@ export default function OnboardingForm() {
                     {t('onboarding.success.message')}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a
-                        href={`https://wa.me/${BOT_WHATSAPP_NUMBER}?text=Start`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 inline-flex justify-center items-center py-3.5 px-6 rounded-xl font-semibold text-white bg-[#25D366] hover:bg-[#1fad55] transition-transform hover:scale-[1.02] active:scale-[0.98] gap-2 shadow-md hover:shadow-lg"
-                    >
-                        {t('onboarding.success.whatsapp')}
-                    </a>
-                    <a
-                        href={`https://t.me/${BOT_TELEGRAM_USER}?start=start`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 inline-flex justify-center items-center py-3.5 px-6 rounded-xl font-semibold text-white bg-[#0088cc] hover:bg-[#0077b3] transition-transform hover:scale-[1.02] active:scale-[0.98] gap-2 shadow-md hover:shadow-lg"
-                    >
-                        {t('onboarding.success.telegram')}
-                    </a>
+                <div className="flex flex-col sm:flex-row gap-6 justify-center items-start">
+                    {/* WhatsApp Column */}
+                    <div className="flex-1 w-full space-y-3">
+                        <a
+                            href={`https://wa.me/${BOT_WHATSAPP_NUMBER}?text=Start`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full inline-flex justify-center items-center py-3.5 px-6 rounded-xl font-semibold text-white bg-[#25D366] hover:bg-[#1fad55] transition-transform hover:scale-[1.02] active:scale-[0.98] gap-2 shadow-md hover:shadow-lg"
+                        >
+                            {t('onboarding.success.whatsapp')}
+                        </a>
+                        <p className="text-[11px] text-gray-500 leading-relaxed px-1 text-center sm:text-left">
+                            {t('onboarding.success.whatsappStep')}
+                        </p>
+                    </div>
+
+                    {/* Telegram Column */}
+                    <div className="flex-1 w-full space-y-3">
+                        <a
+                            href={`https://t.me/${BOT_TELEGRAM_USER}?start=start`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full inline-flex justify-center items-center py-3.5 px-6 rounded-xl font-semibold text-white bg-[#0088cc] hover:bg-[#0077b3] transition-transform hover:scale-[1.02] active:scale-[0.98] gap-2 shadow-md hover:shadow-lg"
+                        >
+                            {t('onboarding.success.telegram')}
+                        </a>
+                        <p className="text-[11px] text-gray-500 leading-relaxed px-1 text-center sm:text-left">
+                            {t('onboarding.success.telegramStep')}
+                        </p>
+                    </div>
                 </div>
             </div>
         );
@@ -151,6 +164,10 @@ export default function OnboardingForm() {
                         </p>
                     )}
                 </div>
+
+                <p className="text-xs text-gray-500 mt-3 px-1 leading-relaxed italic">
+                    {t('onboarding.whatsappLimitation')}
+                </p>
 
                 {status === 'error' && (
                     <div className="flex items-start gap-3 p-4 bg-red-50 border border-red-100 text-red-700 text-sm rounded-xl animate-fade-in">

@@ -91,11 +91,14 @@
         "phoneLabel": "WhatsApp / Celular",
         "phonePlaceholder": "21 99999-9999",
         "submit": "Começar Agora",
+        "whatsappLimitation": "Oi! Um aviso rápido: No momento, não conseguimos oferecer suporte ao WhatsApp para números do Brasil (+55) ou Índia (+91). Mas não se preocupe—o Telegram está prontinho esperando por você! 📥✨",
         "success": {
             "title": "Tudo pronto!",
             "message": "Sua conta foi criada. Escolha seu app favorito abaixo para ativar o assistente.",
             "whatsapp": "WhatsApp",
-            "telegram": "Telegram"
+            "whatsappStep": "Você já pode começar a enviar suas mensagens imediatamente, nós iremos capturá-las!",
+            "telegram": "Telegram",
+            "telegramStep": "Envie seu número de telefone registrado como a primeira mensagem. Aguarde por: '✅ Bem-vindo! Sua conta foi vinculada'. Agora ja podemos capturar suas mensagens!"
         },
         "errors": {
             "emailInvalid": "Endereço de e-mail inválido.",
@@ -113,8 +116,8 @@
         "step1": {
             "title": "Começar",
             "body": "Primeiro, cadastre-se aqui no site. Depois, conecte seu app de mensagens:",
-            "detailA": "Encontre o bot <1>@Dumpsterhook_bot</1>. Envie seu número de telefone registrado como a primeira mensagem. Aguarde por: '✅ Bem-vindo! Sua conta foi vinculada'.",
-            "detailB": "Simplesmente comece a enviar mensagens para <1>+1 555 444 333</1>."
+            "detailA": "Encontre o bot <1>@Dumpsterhook_bot</1>. Envie seu número de telefone registrado como a primeira mensagem. Aguarde por: '✅ Bem-vindo! Sua conta foi vinculada'. Agora ja podemos capturar suas mensagens!",
+            "detailB": "Simplesmente comece a enviar mensagens para <1>+1 775 644 4459</1>."
         },
         "step2": {
             "title": "Apenas Envie",

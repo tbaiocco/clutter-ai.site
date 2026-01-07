@@ -91,11 +91,14 @@
         "phoneLabel": "WhatsApp / Mobile",
         "phonePlaceholder": "21 99999-9999",
         "submit": "Start Now",
+        "whatsappLimitation": "Hey! Quick heads-up: Currently, we can’t support WhatsApp for Brazil (+55) or India (+91) numbers. But don't worry—Telegram is ready and waiting for you! 📥✨",
         "success": {
             "title": "All set!",
             "message": "Your account was created. Choose your favorite app below to activate the assistant.",
             "whatsapp": "WhatsApp",
-            "telegram": "Telegram"
+            "whatsappStep": "You can start sending your messages immediatelly, we will capture them!",
+            "telegram": "Telegram",
+            "telegramStep": "Send your registered phone number as the first message. Wait for: '✅ Welcome! Your account has been linked'. Now we are ready to capture your messages!"
         },
         "errors": {
             "emailInvalid": "Invalid e-mail address.",
@@ -113,8 +116,8 @@
         "step1": {
             "title": "Get Started",
             "body": "First, register here on the site. Then, connect your messaging app:",
-            "detailA": "Find bot <1>@Dumpsterhook_bot</1>. Send your registered phone number as the first message. Wait for: '✅ Welcome! Your account has been linked'.",
-            "detailB": "Simply start sending messages to <1>+1 555 444 333</1>."
+            "detailA": "Find bot <1>@Dumpsterhook_bot</1>. Send your registered phone number as the first message. Wait for: '✅ Welcome! Your account has been linked'. Now we are ready to capture your messages!",
+            "detailB": "Simply start sending messages to <1>+1 775 644 4459</1>."
         },
         "step2": {
             "title": "Just Dump It",

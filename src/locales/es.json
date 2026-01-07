@@ -87,11 +87,14 @@
         "phoneLabel": "WhatsApp / Celular",
         "phonePlaceholder": "21 99999-9999",
         "submit": "Comenzar Ahora",
+        "whatsappLimitation": "¡Hola! Un aviso rápido: Por ahora, no podemos ofrecer soporte por WhatsApp para números de Brasil (+55) o India (+91). ¡Pero no te preocupes, Telegram está listo para recibirte! 📥✨",
         "success": {
             "title": "¡Todo listo!",
             "message": "Tu cuenta ha sido creada. Elige tu app favorita abajo para activar el asistente.",
             "whatsapp": "WhatsApp",
-            "telegram": "Telegram"
+            "whatsappStep": "¡Puedes empezar a enviar tus mensajes inmediatamente, los capturaremos!",
+            "telegram": "Telegram",
+            "telegramStep": "Envía tu número de teléfono registrado como primer mensaje. Espera a: '✅ ¡Bienvenido! Tu cuenta ha sido vinculada'. ¡Ahora ya podemos capturar tus mensajes!"
         },
         "errors": {
             "emailInvalid": "Correo electrónico inválido.",
@@ -109,8 +112,8 @@
         "step1": {
             "title": "Empezar",
             "body": "Primero, regístrate aquí en el sitio. Luego, conecta tu app de mensajería:",
-            "detailA": "Busca el bot <1>@Dumpsterhook_bot</1>. Envía tu número de teléfono registrado como primer mensaje. Espera a: '✅ ¡Bienvenido! Tu cuenta ha sido vinculada'.",
-            "detailB": "Simplemente empieza a enviar mensajes a <1>+1 555 444 333</1>."
+            "detailA": "Busca el bot <1>@Dumpsterhook_bot</1>. Envía tu número de teléfono registrado como primer mensaje. Espera a: '✅ ¡Bienvenido! Tu cuenta ha sido vinculada'. Ahora ya podemos capturar tus mensajes!",
+            "detailB": "Simplemente empieza a enviar mensajes a <1>+1 775 644 4459</1>."
         },
         "step2": {
             "title": "Solo Envíalo",
