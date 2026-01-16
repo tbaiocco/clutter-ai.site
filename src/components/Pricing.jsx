@@ -34,7 +34,7 @@ const Pricing = ({ onOpenLogin }) => {
 
                         <p className="text-lg md:text-xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed font-medium">
                             <Trans i18nKey="pricing.subheadline">
-                                We are currently in public beta. To thank our early adopters, all premium features are $0 until <span className="font-bold underline decoration-wavy underline-offset-4">February 28, 2026</span>.
+                                We are currently in public beta. To thank our early adopters, all premium features are $0 until <span className="font-bold underline decoration-wavy underline-offset-4">March 31, 2026</span>.
                             </Trans>
                         </p>
 
