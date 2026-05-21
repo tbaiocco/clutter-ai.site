@@ -89,7 +89,7 @@
         "emailLabel": "Your best e-mail",
         "emailPlaceholder": "you@example.com",
         "phoneLabel": "WhatsApp / Mobile",
-        "phonePlaceholder": "21 99999-9999",
+        "phonePlaceholder": "+1 (555) 000-0000",
         "submit": "Start Now",
         "whatsappLimitation": "Hey! Quick heads-up: Currently, we can’t support WhatsApp for Brazil (+55) or India (+91) numbers. But don't worry—Telegram is ready and waiting for you! 📥✨",
         "success": {
@@ -151,7 +151,7 @@
     },
     "pricing": {
         "headline": "Early Access Special: Enjoy Clutter.AI Completely Free.",
-        "subheadline": "We are currently in public beta. To thank our early adopters, all premium features are 0€ until <1>March 31, 2026</1>.",
+        "subheadline": "We are currently in public beta. To thank our early adopters, all premium features are free! <1>Early adopters will get exclusive benefits</1>.",
         "badge": "Beta Tester Perk: 100% Off",
         "included": "Dive in now and get unlimited access to:",
         "features": [

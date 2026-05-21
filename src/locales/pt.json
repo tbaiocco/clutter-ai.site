@@ -81,7 +81,7 @@
         "title": "Bem-vindo ao Clutter.AI",
         "subtitle": "Digite seu número de celular para iniciar seu teste grátis.",
         "label": "Número do celular",
-        "placeholder": "+55 (11) 99999-9999",
+        "placeholder": "+351 999 999 999",
         "cta": "Começar Teste Grátis"
     },
     "onboarding": {
@@ -89,7 +89,7 @@
         "emailLabel": "Seu melhor e-mail",
         "emailPlaceholder": "voce@exemplo.com",
         "phoneLabel": "WhatsApp / Celular",
-        "phonePlaceholder": "21 99999-9999",
+        "phonePlaceholder": "+351 999 999 999",
         "submit": "Começar Agora",
         "whatsappLimitation": "Oi! Um aviso rápido: No momento, não conseguimos oferecer suporte ao WhatsApp para números do Brasil (+55) ou Índia (+91). Mas não se preocupe—o Telegram está prontinho esperando por você! 📥✨",
         "success": {
@@ -151,7 +151,7 @@
     },
     "pricing": {
         "headline": "Especial de Acesso Antecipado: Aproveite o Clutter.AI Totalmente Grátis.",
-        "subheadline": "Estamos em beta público. Como agradecimento aos primeiros usuários, todos os recursos premium custam 0€ até <1>31 de Março de 2026</1>.",
+        "subheadline": "Estamos em beta público. Como agradecimento aos primeiros usuários, todos os recursos premium são grátis! <1>Early adopters vão obter benefícios exclusivos</1>.",
         "badge": "Vantagem Beta: 100% Off",
         "included": "Comece agora e tenha acesso ilimitado a:",
         "features": [

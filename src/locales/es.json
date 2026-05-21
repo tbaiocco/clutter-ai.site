@@ -85,7 +85,7 @@
         "emailLabel": "Tu mejor correo",
         "emailPlaceholder": "tu@ejemplo.com",
         "phoneLabel": "WhatsApp / Celular",
-        "phonePlaceholder": "21 99999-9999",
+        "phonePlaceholder": "+34 999 999 999",
         "submit": "Comenzar Ahora",
         "whatsappLimitation": "¡Hola! Un aviso rápido: Por ahora, no podemos ofrecer soporte por WhatsApp para números de Brasil (+55) o India (+91). ¡Pero no te preocupes, Telegram está listo para recibirte! 📥✨",
         "success": {
@@ -147,7 +147,7 @@
     },
     "pricing": {
         "headline": "Especial de Acceso Anticipado: Disfruta Clutter.AI Completamente Gratis.",
-        "subheadline": "Estamos en beta pública. Para agradecer a nuestros primeros usuarios, todas las funciones premium cuestan 0€ hasta el <1>31 de Marzo de 2026</1>.",
+        "subheadline": "Estamos en beta pública. Para agradecer a nuestros primeros usuarios, todas las funciones premium son gratis! <1>Early adopters obtendrán beneficios exclusivos</1>.",
         "badge": "Ventaja Beta: 100% Desc.",
         "included": "Empieza ahora y obtén acceso ilimitado a:",
         "features": [
