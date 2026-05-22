@@ -3,6 +3,7 @@
         "features": "Features",
         "howItWorks": "How it Works",
         "pricing": "Pricing",
+        "guide": "Guide",
         "signIn": "Sign In",
         "getStarted": "Get Started",
         "language": {
@@ -192,6 +193,115 @@
             "ownership": {
                 "title": "100% Yours",
                 "description": "You hold the keys. Export or delete your entire history anytime. Deletion is permanent."
+            }
+        }
+    },
+    "seo": {
+        "home": {
+            "title": "Clutter.AI | Cognitive Prosthesis for Zero-friction Capture",
+            "description": "Clutter.AI is your cognitive prosthesis and Executive Function as a Service: capture thoughts in seconds, reduce chaos, and improve ADHD productivity with zero-friction capture.",
+            "keywords": "Prótese Cognitiva, Cognitive Prosthesis, Executive Function as a Service, TDAH produtividade, ADHD productivity, Zero-friction capture, external memory"
+        }
+    },
+    "guide": {
+        "seo": {
+            "title": "Clutter Guide | Cognitive Prosthesis for Zero-friction Capture",
+            "description": "Learn how Clutter.AI works as a cognitive prosthesis and Executive Function as a Service for ADHD productivity and zero-friction capture.",
+            "keywords": "Cognitive Prosthesis, Executive Function as a Service, ADHD productivity, Zero-friction capture, external memory"
+        },
+        "layout": {
+            "language": "Language",
+            "footer": "Your external memory, organized with clarity."
+        },
+        "hero": {
+            "kicker": "User Guide",
+            "headline": "The Prosthesis for Your Executive Function.",
+            "subheadline": "Capture chaos in under 5 seconds. Stay present while Clutter handles the rest.",
+            "primaryCta": "See the invisible interface",
+            "scenarios": [
+                {
+                    "label": "Client meeting",
+                    "title": "Just left a client full of ideas?",
+                    "body": "Do not wait to get back to the office. Send a voice note to Clutter and it turns chaos into an action plan."
+                },
+                {
+                    "label": "Driving",
+                    "title": "Insight while driving?",
+                    "body": "Saw an interesting billboard? Send audio or a photo. Your idea is safely stored in your external memory before it fades."
+                },
+                {
+                    "label": "On the street",
+                    "title": "Street ad you want to research later?",
+                    "body": "Take a photo. Clutter extracts the intent and reminds you at the right moment."
+                }
+            ]
+        },
+        "commands": {
+            "title": "Bot Commands Guide: The Invisible UI",
+            "subtitle": "A command grid designed for frictionless operation in WhatsApp and Telegram.",
+            "items": [
+                {
+                    "command": "/start",
+                    "description": "Welcome flow and account sync."
+                },
+                {
+                    "command": "/help",
+                    "description": "Quick feature reference guide."
+                },
+                {
+                    "command": "/recent",
+                    "description": "View your last 5 captured items."
+                },
+                {
+                    "command": "/upcoming",
+                    "description": "Your reminders for the next 24 hours."
+                },
+                {
+                    "command": "/track [num]",
+                    "description": "Automatic package tracking."
+                },
+                {
+                    "command": "/search [term]",
+                    "description": "Semantic search over your persistent memory."
+                }
+            ]
+        },
+        "journey": {
+            "title": "Visual Journey",
+            "subtitle": "From high-entropy capture to calm execution.",
+            "capture": {
+                "title": "Capture",
+                "description": "Vision AI and speech intelligence interpret voice notes and photos to extract dates, amounts, and actionable context automatically."
+            },
+            "processing": {
+                "title": "Processing",
+                "description": "Onboarding stays zen: start, understand available commands, and keep moving without switching tools."
+            },
+            "action": {
+                "title": "Action",
+                "description": "Proactive intelligence watches for lack of action and triggers reminders and daily digests to close loops."
+            },
+            "web": {
+                "title": "Web Management",
+                "description": "Use temporal buckets (Past, Today, Tomorrow, Next Week), natural fuzzy search, and profile rituals to maintain clarity."
+            },
+            "feedback": {
+                "title": "Feedback Loop",
+                "description": "A direct channel lets users shape the product evolution with contextual feedback."
+            }
+        },
+        "entropy": {
+            "input": {
+                "title": "Input (High Entropy)",
+                "body": "Vague audios, blurry photos, and scattered thoughts."
+            },
+            "output": {
+                "title": "Output (Low Entropy)",
+                "body": "Organized actions, contextual reminders, and peace of mind."
+            },
+            "data": {
+                "title": "Data Sovereignty",
+                "body": "Zero Data Training by default. Your memory is protected and never used to train public models."
             }
         }
     }

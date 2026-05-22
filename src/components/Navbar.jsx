@@ -33,6 +33,7 @@ const Navbar = ({ onOpenLogin }) => {
                             <a href="#how-it-works" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.howItWorks')}</a>
                             <a href="#features" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.features')}</a>
                             <a href="#pricing" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.pricing')}</a>
+                            <a href="/guide" className="text-brand-text hover:text-brand-primary font-medium transition-colors">{t('navbar.guide')}</a>
                         </div>
 
                         {/* Desktop CTAs */}
@@ -111,6 +112,7 @@ const Navbar = ({ onOpenLogin }) => {
                                 <a href="#how-it-works" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.howItWorks')}</a>
                                 <a href="#features" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.features')}</a>
                                 <a href="#pricing" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.pricing')}</a>
+                                <a href="/guide" className="block px-3 py-2 rounded-md text-base font-medium text-brand-text hover:bg-gray-50 hover:text-brand-primary">{t('navbar.guide')}</a>
                                 <div className="pt-4 space-y-3">
                                     <button
                                         onClick={() => { onOpenLogin(); setIsMenuOpen(false); }}

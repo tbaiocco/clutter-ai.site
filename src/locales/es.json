@@ -3,6 +3,7 @@
         "features": "Características",
         "howItWorks": "Cómo Funciona",
         "pricing": "Precios",
+        "guide": "Guía",
         "signIn": "Iniciar Sesión",
         "getStarted": "Empezar",
         "language": {
@@ -188,6 +189,115 @@
             "ownership": {
                 "title": "100% Tuyo",
                 "description": "Tú tienes el control. Exporta o elimina todo tu historial en cualquier momento. La eliminación es permanente."
+            }
+        }
+    },
+    "seo": {
+        "home": {
+            "title": "Clutter.AI | Prótesis Cognitiva para captura sin fricción",
+            "description": "Clutter.AI es tu Prótesis Cognitiva y Executive Function as a Service: captura pensamientos en segundos, reduce el caos y mejora la productividad con TDAH mediante Zero-friction capture.",
+            "keywords": "Prótesis Cognitiva, Cognitive Prosthesis, Executive Function as a Service, productividad TDAH, ADHD productivity, Zero-friction capture, memoria externa"
+        }
+    },
+    "guide": {
+        "seo": {
+            "title": "Guía Clutter | Prótesis Cognitiva para captura sin fricción",
+            "description": "Descubre cómo Clutter.AI funciona como Prótesis Cognitiva y Executive Function as a Service para productividad con TDAH y Zero-friction capture.",
+            "keywords": "Prótesis Cognitiva, Executive Function as a Service, productividad TDAH, Zero-friction capture, memoria externa"
+        },
+        "layout": {
+            "language": "Idioma",
+            "footer": "Tu memoria externa organizada con claridad."
+        },
+        "hero": {
+            "kicker": "Guía del Usuario",
+            "headline": "La Prótesis para tu Función Ejecutiva.",
+            "subheadline": "Captura el caos en menos de 5 segundos. Vive el presente y deja que Clutter haga el resto.",
+            "primaryCta": "Ver la interfaz invisible",
+            "scenarios": [
+                {
+                    "label": "Cliente",
+                    "title": "¿Acabas de salir de un cliente lleno de ideas?",
+                    "body": "No esperes a volver a la oficina. Envía un audio a Clutter y transforma el caos en un plan de acción."
+                },
+                {
+                    "label": "Conduciendo",
+                    "title": "¿Insight mientras conduces?",
+                    "body": "¿Viste un anuncio interesante? Envía un audio o foto. Tu idea queda guardada en tu Memoria Externa antes de desaparecer."
+                },
+                {
+                    "label": "Calle",
+                    "title": "¿Publicidad en la calle para investigar después?",
+                    "body": "Toma una foto. Clutter extrae la intención y te lo recuerda en el momento correcto."
+                }
+            ]
+        },
+        "commands": {
+            "title": "Guía de Comandos del Bot: The Invisible UI",
+            "subtitle": "Una cuadrícula de comandos para operar sin fricción en WhatsApp y Telegram.",
+            "items": [
+                {
+                    "command": "/start",
+                    "description": "Bienvenida y sincronización de cuenta."
+                },
+                {
+                    "command": "/help",
+                    "description": "Guía rápida de funcionalidades."
+                },
+                {
+                    "command": "/recent",
+                    "description": "Mira tus 5 capturas más recientes."
+                },
+                {
+                    "command": "/upcoming",
+                    "description": "Tus recordatorios para las próximas 24h."
+                },
+                {
+                    "command": "/track [num]",
+                    "description": "Seguimiento automático de paquetes."
+                },
+                {
+                    "command": "/search [término]",
+                    "description": "Búsqueda semántica en tu memoria persistente."
+                }
+            ]
+        },
+        "journey": {
+            "title": "Jornada Visual",
+            "subtitle": "De la captura de alta entropía a la ejecución tranquila.",
+            "capture": {
+                "title": "Captura",
+                "description": "La IA interpreta audios e imágenes (Vision AI) para extraer fechas, importes y contexto accionable automáticamente."
+            },
+            "processing": {
+                "title": "Procesamiento",
+                "description": "Onboarding zen: inicia con /start, aprende con /help y sigue sin cambiar de herramienta."
+            },
+            "action": {
+                "title": "Acción",
+                "description": "La Inteligencia Proactiva detecta falta de acción y activa recordatorios y resúmenes diarios para cerrar ciclos."
+            },
+            "web": {
+                "title": "Gestión Web",
+                "description": "Organiza con Buckets Temporales (Pasado, Hoy, Mañana, Próxima Semana), búsqueda natural fuzzy y rituales de claridad del perfil."
+            },
+            "feedback": {
+                "title": "Feedback",
+                "description": "Canal directo para evolucionar la herramienta con señales reales de los usuarios."
+            }
+        },
+        "entropy": {
+            "input": {
+                "title": "Entrada (Alta Entropía)",
+                "body": "Audios vagos, fotos borrosas y pensamientos sueltos."
+            },
+            "output": {
+                "title": "Salida (Baja Entropía)",
+                "body": "Acción organizada, recordatorios contextuales y paz mental."
+            },
+            "data": {
+                "title": "Soberanía de Datos",
+                "body": "Zero Data Training por defecto. Tu memoria está protegida y nunca se usa para entrenar modelos públicos."
             }
         }
     }
